@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    height: 13vh;
+    background-color: #FF6A28;
+}
+div{
+    display: flex;
+    justify-content: flex-end;
+    width: 38vw;
+}
+h2{
+    
+    font-family: "Sofia", sans-serif;
+    font-size: 45px;
+    color: #030101;
+    letter-spacing: 2.5px;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200vh;
+    background-color: #F0F0F0;
+}
+h1{
+    font-family: "Lobster", sans-serif;
+    height:8vh;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+section{
+    border: solid;
+    border-radius: 15px;
+    width: 45vw;
+    height: 180vh;
+    background-color:#ffff;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+img{
+    outline: solid#ff4d00;
+    border-radius: 10px;
+    width: 35vw;
+}
+ul{
+    padding-top: 1.5vh;
+    padding-left: 2.8vw;
+}
+ul li{
+    font-size: 20px;
+}
+ol{
+    padding-top: 1.5vh;
+    padding-left: 2vw;
+}
+ol li{
+    width: 38vw;
+    padding-top: 1vh;
+    font-size: 20px;
+}
+.secondOlLi{
+    padding-top: 1.5vh;
+}
